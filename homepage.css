@@ -1,8 +1,47 @@
-p{ 
-   color:  #00FF67;
+#header {
+background-color:black;
+color:white;
+text-align:center;
+padding:5px;
 }
-h1{
-   color: #FF3100;
+#nav-bar {
+line-height:30px;
+background-color:#eeeeee;
+height:300px;
+width:100px;
+float:left;
+padding:5px; 
 }
-
-
+#text-location {
+width:350px;
+float:left;
+padding:10px; 
+}
+#footer {
+background-color:black;
+color:white;
+clear:both;
+text-align:center;
+padding:5px; }
+                   
+              
+               
+                   
+                    
+                  
+                              
+ 
+    
+                   
+              
+               
+              
+                    
+                  
+                             
+ 
+          
+                         
+                        
+                      
+ 
