@@ -6,27 +6,39 @@ body {background-color: gray;
 h1   {color: white}
 p    {color: #2638BE;}
 
-#header {
+header {
+    display: flex;
+    border-bottom:1px solid blue; 
+    background:#fc9453; 
+    padding:10px 100px; 
+    position:fixed; 
+    top:0; 
+    left:0; 
+    z-index:2000; 
+    width:100%;
+    height: 100px;
     background-color: black;
     color:white;
     text-align:center;
     padding:5px;
 }
-#nav-bar {
+aside {
+    margin-top: 110px;
     color: #DBDBDB;
     line-height:30px;
     background-color:#323232;
     height:1000px;
     width:100px;
     float:left;
-    padding:0px; 
+    padding:8px; 
 }
-#text-location {
+section {
+    margin-top: 100px;
     width:350px;
     float:left;
-    padding:0px; 
+    margin-left:35px; 
 }
-#footer {
+footer {
     background-color: black;
     color:white;
     clear:both;
