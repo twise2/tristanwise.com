@@ -1,35 +1,113 @@
+.header {
+	position: relative;
+	background-color: white;
+	color: black;
+	height: 35px;
+	border-bottom: 2px solid green;
+	top: -30px;
+	left: 0px;
+	right: 0px;
+	width: 80%;
+	margin: auto;
+	z-index: 1;
+	opacity: 1.0;
+}
+
+.menu {
+	position: fixed;
+	background-color: white;
+	color: black;
+	height: 50px;
+	border: 2px solid white;
+	border-bottom: 2px solid green;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	margin: auto;
+	z-index: 1;
+	list-style: none;
+}
+.menu-flex{
+	position:relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+	z-index: 1;
+	list-style: none;
+}
+
+.menu a {
+    width: <property unused>
+    height: 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50px;
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	color: black;
+}
+
+.menu a:hover {
+	background: darken(grey, 2%);
+}
+
+h2{
+	text-align: center;
+}
+
 body {
-    background-color: gray;
-    font-family:"colfax-web",sans-serif;
-    display: flex;
-    flex-flow: row-wrap;
-    height = 300px;
+	margin-top: 92px;
+	z-index: 0;
 }
-header{ 
-	flex: 1 100%;
-	order: 1;
-	width: 100px;  /* Or whatever */
-	height: 100px; /* Or whatever */
-	margin: auto;  /* Magic! */
+
+.flex-container {
+	position:relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 40px;
+	margin-top: -25px;
 }
-aside {
-	flex: 1 100%;
-	order: 2;
-	width: 100px;  /* Or whatever */
-	height: 100px; /* Or whatever */
-	margin: auto;  /* Magic! */
+.flex-box-item {
+    background: blue;
+    width: 300px;
+    height: 250px;
+    position: relative;
+	margin: 5px;
 }
-section {
-	flex: 1 100%;
-	order: 3
-	width: 100px;  /* Or whatever */
-	height: 100px; /* Or whatever */
-	margin: auto;  /* Magic! */
+.flex-box-words {
+    background: red;
+    width: 300px;
+    height: 250px;
+    position: relative;
+	margin: 5px;
 }
-footer {
-	flex: 1 100%;
-	order 4;
-	width: 100px;  /* Or whatever */
-	height: 100px; /* Or whatever */
-	margin: auto;  /* Magic! */
+
+.footer {
+position:relative;
+display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-content: center;
+align-items: center;
+border-top: 2px solid green;
+width: 60%;
+margin: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+.footerbox {
+background-color: purple;
+height: 50px;
+margin-top: 5px;
+position: relative;
 }
